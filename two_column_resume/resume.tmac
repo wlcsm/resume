@@ -1,0 +1,80 @@
+\# A template for Resumes
+\# Will Cashman 2022
+.
+\# Define colours
+.defcolor red rgb #cc3300
+.defcolor grey rgb #595959
+.
+\# Document title
+.de title
+.DS C
+\fB\s(30\\$*
+.DE
+..
+.
+\# Document subtitle
+.de subtitle
+.DS C
+\s(16\\$*
+.DE
+..
+.
+\# Section
+.de section
+.LP
+.sp 1
+\m[red]\fB\s(14\\$*\m[]
+..
+.
+\# Description of job
+\# 1. Company
+\# 2. Job title
+\# 3. Duration
+\# 4. Location
+\#
+\# Formatted as
+\# |{Company} - {Job Title}          |
+\# |{Duration}             {Location}|
+.de item
+.sp 0.5
+.LP
+\fB\s(12\\$1\fR - \\$2
+.sp -0.2
+.mk
+.DS L
+\m[grey]\s(10\\$4\m[]
+.rt
+.DS R
+\m[grey]\s(10\\$3\m[]
+.DE
+.sp -0.5
+..
+.
+.de list
+.IP "   \(bu" 4
+\# ragged right margin
+.ad l
+\\$*
+.LP
+.sp -0.4
+..
+.
+\# Skill listing
+.de skill
+\s(10\fB\\$1\fR \fI \\$2
+..
+.
+\######### Document Settings #########
+\# 0.5 inch border all the way around
+.nr PO 0.5i
+.nr HM 0.5i
+.nr FM 0.3i
+.
+\# Create a right margin of 0.5i by subtracting the left margin plus 0.5i from
+\# the width of the entire page
+.nr LL 21c
+.nr LL -\n[PO]
+.nr LL -0.5i
+.
+\# Font family. Currently using Helvetica
+.fam H

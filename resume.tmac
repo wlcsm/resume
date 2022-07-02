@@ -1,0 +1,80 @@
+\# A template for Resumes
+\# Will Cashman 2022
+.
+\# Define colours
+.defcolor red rgb #cc3300
+.defcolor grey rgb #595959
+.
+\# Document title
+.de title
+\fB\s(30\\$*
+.LP
+..
+.
+\# Document subtitle
+.de subtitle
+\s(16\\$*
+.LP
+..
+.
+\# Section
+.de section
+.LP
+.sp 1
+\m[red]\s(14\\$*\m[]
+.fam
+.LP
+.sp -1
+\D'l 7.25i 0'
+..
+.
+\# Description of job
+\# 1. Company
+\# 2. Job title
+\# 3. Duration
+\# 4. Location
+\#
+\# Formatted as
+\# |{Company}              {Duration}|
+\# |{Job title}            {Location}|
+.de item
+.nf
+.mk
+.DS L
+\fB\s(12\\$1\fR
+\m[grey]\fI\s(12\\$2\m[]
+.DE
+.rt
+.DS R
+\fB\s(11\\$3
+\m[grey]\fI\s(12\\$4\m[]
+.DE
+.sp -0.5
+..
+.
+.de list
+.IP "  \(bu" 3
+\# ragged right margin
+.ad l
+\s(11\\$*
+.LP
+.sp -0.4
+..
+.
+.de email
+\fBE-mail:
+.pdfhref W -D mail:\*[EMAIL] \*[EMAIL]
+\h'0.1i'
+..
+.
+.de github
+GitHub:
+.pdfhref W -D https://github.com/\*[GITHUB] \*[GITHUB]
+\h'0.1i'
+..
+.
+.de linkedin
+LinkedIn:
+.pdfhref W -D https://www.linkedin.com/in/\*[LINKEDIN]/ Will Cashman
+\h'0.1i'
+..
