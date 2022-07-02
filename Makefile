@@ -1,2 +1,2 @@
 make:
-	groff -Kutf8 -ms -Tpdf resume.ms > resume.pdf
+	groff -Kutf8 -ms -Tpdf WillCashmanResume.ms > WillCashmanResume.pdf
