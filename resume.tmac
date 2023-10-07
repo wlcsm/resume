@@ -25,62 +25,35 @@
 \s(14\\$*
 .LP
 .sp -1
-\D'l 7.25i 0'
+\l'50'
 ..
 .
-\# Project
+\# Item
 \# 1. Name
 \# 2. Location
 \# 3. Time
 \#
 \# Formatted as
 \# |{Company}, {Location}      {Time}|
-.de project
-.nf
-.mk
-\# This space ensures the left-aligned is at the same level as the following
-\# right-aligned text.
-.sp 0.5
-\fB\s(12\\$1\fR, \m[grey]\fI\s(12\\$2\m[]
-.rt
-.DS R
-\fB\s(11\\$3
-.DE
-.sp -0.5
-..
-.
-\# Description of job
-\# 1. Company
-\# 2. Job title
-\# 3. Duration
-\# 4. Location
-\#
-\# Formatted as
-\# |{Company}              {Duration}|
-\# |{Job title}            {Location}|
 .de item
+.LP
 .nf
 .mk
 \# This space ensures the left-aligned is at the same level as the following
 \# right-aligned text.
 .sp 0.5
-\fB\s(12\\$1\fR
-\m[grey]\fI\s(12\\$2\m[]
+\fB\s(12\\$1\fR \m[grey]\fI\s(12\\$2\m[]
 .rt
 .DS R
 \fB\s(11\\$3
-\m[grey]\fI\s(12\\$4\m[]
 .DE
 .sp -0.5
 ..
 .
 .de list
 .IP "  \(bu" 3
-\# ragged right margin
-.ad l
 \s(11\\$*
-.LP
-.sp -0.4
+.br
 ..
 .
 .de email
