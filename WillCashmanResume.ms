@@ -50,7 +50,7 @@
 \# Main document starts here
 .title Will Cashman
 .
-\s(12\m[grey]Mathematic and Computer Science Graduate student
+\s(12\m[grey]Full Stack Go/Python Engineer
 .
 .sp -4
 .DS R
@@ -68,6 +68,50 @@ Oxford, UK
 .sp 1.5
 .
 .
+.section WORK EXPERIENCE
+.
+.
+.item "CrowdStrike" "Software Engineer, Remote" "Dec 2022 - Sep 2023"
+.list Developed internal tooling and microservices in Python and Golang on AWS and Kubernetes to increase developer productivity and reliability of the LogScale product.
+.list Coordinated upgrades of 80,000+ fleet of Ubuntu servers using Python and Ansible, in addition to general Linux administration.
+.list Spearhead implementation and deployment of better targeted testing procedures in CI/CD.
+.list Routinely resolved performance bottlenecks to improve efficiency and reduce infrastructure costs.
+.
+.item "TikTok" "Software Engineer, Shenzhen, CN" "Aug 2021 - Aug 2022"
+.list Follow an agile release train to design and develop core CI/CD capabilities for company release platform by building Go and Python microservices and tooling.
+.list Lead the sucessful integration of a competing internal product. Involving a complete system migration and the development of a bespoke cross platform data migration tool.
+.list Actively engaged with users to seek feedback and resolve obstacles, resulting in a 85% user retention rate over a couple of months of release.
+.list Used Python to perform system migrations, automate tasks, and SQL database maintenance.
+.
+.item "Countersight" "Full Stack Software Engineer, Canberra, AUS" "Jan 2021 - Jul 2021"
+.list Lead a team of two engineers using Agile methods to develop a React/NodeJS web app with GitLab and Jenkins for CI/CD.
+.list Automate deployment and maintenance of company email servers, Zabbix monitoring, and DNS servers using Ansible and Jenkins, and further integrating the services into the ELK stack.
+.
+.item "The Australian National University" "Workshop Demonstrator, Canberra, AUS" "2019 - 2020"
+.list Lead tutor for undergraduate algorithms course. Ensured comprehensive learning experience by leading online forum discussions, designed weekly student workshops as well as course assignments.
+.
+.
+.section CONFERENCES
+.
+.
+.item "Maple Conference" "Remote" "2020"
+.list Rust for developing fast parallelised Computer Algebra Systems
+.list Demonstrated the suitability of the Rust programming language for implementing complex Computer Algebra systems which prioritise speed without sacrificing extensibility and memory safety.
+.
+.
+.section EDUCATION
+.
+.
+.item "MSc in Mathematics and Foundations of Computer Science" "Oxford, UK" "2023 - Present"
+.list Specialising in Quantum algorithms supported by foundations in category theory.
+.list Will matriculate in October 2024.
+.
+.item "Bachelor of Philosophy - Science" "The Australian National University,  Australia" "2017 - 2020"
+.list Graduated with First Class Honours, GPA 6.5/7, and received Chancellor's Letter of Commendation.
+.list Specialised in Algorithm design for Computational Algebraic Geometry and Machine learning.
+.
+.
+.bp
 .section RESEARCH PROJECTS
 .
 .
@@ -77,59 +121,15 @@ Oxford, UK
 .code_url https://github.com/wlcsm/nPoly https://github.com/wlcsm/nPoly
 .
 .item "Study and attack of NTRUEncrypt" "The Australian National University" "2019"
-.list Guided research into the NTRUEncrypt Public Key Encryption system for post-quantum cryptography. 
+.list Guided research into the NTRUEncrypt Public Key Encryption system for post-quantum cryptography.
 .list Implemented the NTRUEncrypt cryptosystem in Python, and developed a lattice-based attack in Magma.
 .code_url https://github.com/wlcsm/NTRU-Python-with-Lat-Attack https://github.com/wlcsm/NTRU-Python-with-Lat-Attack
 .
-.item "Drum Transcribing Platform" "Beijing Institute of Technology" "2018 - 2019" 
+.item "Drum Transcribing Platform" "Beijing Institute of Technology" "2018 - 2019"
 .list Three weeks of private lectures on the topic of ``Internet of Things'' given by Beijing Institute of Technology.
 .list Developed an online platform to automatically transcribe drum compositions in real time and upload the musical score to a remote sever via WIFI.
 .list Implemented software for micro-controllers to process information from vibration sensors and upload information, as well as full-stack development of a website to process the uploaded information and provide a user interface for clients to interact with their data.
 .code_url https://github.com/wlcsm/Drum_Transcriber_ASC https://github.com/wlcsm/Drum_Transcriber_ASC
-.
-.
-.section CONFERENCES
-.
-.
-.item "Maple Conference" "Remote" "2020" 
-.list Rust for developing fast parallelised Computer Algebra Systems
-.list Demonstrated the suitability of the Rust programming language for implementing complex Computer Algebra systems which prioritise speed without sacrificing extensibility and memory safety.
-.
-.
-.section EDUCATION
-.
-.
-.item "MSc in Mathematics and Foundations of Computer Science" "Oxford, UK" "2023 - Present"
-.list Specialising in Quantum information and computing supported by foundations in category theory.
-.list Will matriculate in October 2024.
-.
-.item "Bachelor of Philosophy - Science" "The Australian National University,  Australia" "2017 - 2020"
-.list Graduated with First Class Honours, GPA 6.5/7, and received Chancellor's Letter of Commendation.
-.list Specialised in Algorithm design for Computational Algebraic Geometry and Machine learning.
-.
-.
-.bp
-.section WORK EXPERIENCE
-.
-.
-.item "CrowdStrike" "Software Engineer, Remote" "Dec 2022 - Sep 2023"
-.list Managed infrastructure for the LogScale product as well as CrowdStrike's internal logs.
-.list Designed advanced automation and testing workflows to increase developer productivity in LogScale product.
-.list Coordinate upgrades of 80,000+ fleet of Ubuntu servers.
-.list Developed internal tools and microservices in Python and Golang to increase developer productivity and reliability of the LogScale product.
-.
-.item "TikTok" "Go Software Engineer, Shenzhen, CN" "Aug 2021 - Aug 2022"
-.list Follow an agile release train to design and develop core CI/CD capabilities for company release platform in Go.
-.list Lead the integration of a competing internal product. Perform system integration, developed interactive cross platform data migration tool, and seeked and resolved user issues.
-.list Actively engaged with users to seek feedback and resolve obstacles, results 85% user retention rate. 
-.list Used Python to perform system migrations, automate repetitive tasks, and SQL database maintenance.
-.
-.item "Countersight" "Full Stack Software Engineer, Canberra, AUS" "Jan 2021 - Jul 2021"
-.list Lead a team of two engineers using Agile methods to develop a React/NodeJS.item with GitLab and Jenkins test validation.
-.list Automate deployment and maintenance of company email servers, Zabbix monitoring, and DNS servers using Ansible and Jenkins, and further integrating the services into the ELK stack.
-.
-.item "The Australian National University" "Workshop Demonstrator, Canberra, AUS" "2019 - 2020"
-.list Lead tutor for undergraduate algorithms course. Ensured comprehensive learning experience by leading online forum discussions, designed weekly student workshops as well as course assignments.
 .
 .
 \#.section SKILLS
@@ -143,7 +143,7 @@ Oxford, UK
 .nf
 .sp 1
 .
-\fB\s(12Dr Martin Helmer\fR 
+\fB\s(12Dr Martin Helmer\fR
 \s(10
 Associate Professor of Mathematics at North Carolina State University
 .sp 0.5
