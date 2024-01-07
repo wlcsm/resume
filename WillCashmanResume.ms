@@ -11,7 +11,7 @@
 \# Helvetica font
 .fam H
 .
-\# 0.5i margin. Create a right margin of 0.5i by subtracting the left margin
+\# Margin. Create a right margin of 0.5i by subtracting the left margin
 \# plus 0.5i from the width of the entire page.
 .nr PO 0.7i
 .nr HM 1.0i
