@@ -34,13 +34,13 @@
 \# 1. Display name
 \# 2. Hyperlink destination
 .de url
-.pdfhref W -D \\$2 \m[grey]\\$1\m[black]
+.pdfhref W -D "\\$2" \m[grey]\\$1\m[black]
 ..
 .
 .de code_url
 .code_begin
 .sp -0.8
-.url \\$1 \\$2
+.url "\\$1" "\\$2"
 .code_end
 ..
 .
@@ -50,7 +50,7 @@
 \# Main document starts here
 .title Will Cashman
 .
-\s(12\m[grey]Full Stack Go/Python Engineer
+\s(12\m[grey]Oxford MFoCS Candidate, Full Stack Go/Python Engineer
 .
 .sp -4
 .DS R
@@ -71,24 +71,26 @@ Oxford, UK
 .section WORK EXPERIENCE
 .
 .
-.item "CrowdStrike" "Software Engineer, Remote" "Dec 2022 - Sep 2023"
+.item "CrowdStrike" "Software Engineer, Remote, AUS" "Dec 2022 - Sep 2023"
 .list Developed internal tooling and microservices in Python and Golang on AWS and Kubernetes to increase developer productivity and reliability of the LogScale product.
 .list Coordinated upgrades of 80,000+ fleet of Ubuntu servers using Python and Ansible, in addition to general Linux administration.
-.list Spearhead implementation and deployment of better targeted testing procedures in CI/CD.
+.list Spearheaded implementation and deployment of targeted testing procedures in CI/CD.
 .list Routinely resolved performance bottlenecks to improve efficiency and reduce infrastructure costs.
+.list Completed the internal Falcon Ignite program for leadership development.
 .
-.item "TikTok" "Software Engineer, Shenzhen, CN" "Aug 2021 - Aug 2022"
+.item "TikTok" "Software Engineer, Shenzhen, CN" "2021 - Aug 2022"
 .list Follow an agile release train to design and develop core CI/CD capabilities for company release platform by building Go and Python microservices and tooling.
-.list Lead the sucessful integration of a competing internal product. Involving a complete system migration and the development of a bespoke cross platform data migration tool.
+.list Lead the successful integration of a competing internal product. Involving a complete system migration and the development of a bespoke cross platform data migration tool.
 .list Actively engaged with users to seek feedback and resolve obstacles, resulting in a 85% user retention rate over a couple of months of release.
 .list Used Python to perform system migrations, automate tasks, and SQL database maintenance.
 .
-.item "Countersight" "Full Stack Software Engineer, Canberra, AUS" "Jan 2021 - Jul 2021"
-.list Lead a team of two engineers using Agile methods to develop a React/NodeJS web app with GitLab and Jenkins for CI/CD.
-.list Automate deployment and maintenance of company email servers, Zabbix monitoring, and DNS servers using Ansible and Jenkins, and further integrating the services into the ELK stack.
-.
+\#.item "Countersight" "Full Stack Software Engineer, Canberra, AUS" "Jan 2021 - Jul 2021"
+\#.list Lead a team of two engineers using Agile methods to develop a React/NodeJS web app with GitLab and Jenkins for CI/CD.
+\#.list Automate deployment and maintenance of company email servers, Zabbix monitoring, and DNS servers using Ansible and Jenkins, and further integrating the services into the ELK stack.
+\#.
 .item "The Australian National University" "Workshop Demonstrator, Canberra, AUS" "2019 - 2020"
-.list Lead tutor for undergraduate algorithms course. Ensured comprehensive learning experience by leading online forum discussions, designed weekly student workshops as well as course assignments.
+.list Lead tutor for undergraduate algorithms course (C++) and was workshop demonstrator for Concurrency systems (Ada) and Computer Architecture (ARM Assembly) courses.
+.list Ensured comprehensive learning experience by leading online forum discussions, and designing weekly student workshops as well as course assignments.
 .
 .
 .section CONFERENCES
@@ -97,14 +99,15 @@ Oxford, UK
 .item "Maple Conference" "Remote" "2020"
 .list Rust for developing fast parallelised Computer Algebra Systems
 .list Demonstrated the suitability of the Rust programming language for implementing complex Computer Algebra systems which prioritise speed without sacrificing extensibility and memory safety.
+.code_url "[Video recording]" https://www.youtube.com/watch?v=5ji7091sDi8&list=PLlcD7K2JXjTCSM5syc-A4qxd4_O4uV9D7&index=3
 .
 .
 .section EDUCATION
 .
 .
 .item "MSc in Mathematics and Foundations of Computer Science" "Oxford, UK" "2023 - Present"
-.list Specialising in Quantum algorithms supported by foundations in category theory.
-.list Will matriculate in October 2024.
+.list Specialising in Circuit optimisation for Fusion-Based Quantum Computing.
+.list Assisting the development of the ZXLive tool for interacting with ZX diagrams.
 .
 .item "Bachelor of Philosophy - Science" "The Australian National University,  Australia" "2017 - 2020"
 .list Graduated with First Class Honours, GPA 6.5/7, and received Chancellor's Letter of Commendation.
@@ -116,7 +119,8 @@ Oxford, UK
 .
 .
 .item "Honours Thesis" "The Australian National University" "2020"
-.list A study of the most popular practical and theoretical polynomial multiplication algorithms including the recent Harvey Van der Hoeven integer multiplication algorithm.
+.list A study of the most practically and asymptotically efficient polynomial multiplication algorithms including the recent Harvey Van der Hoeven integer multiplication algorithm.
+.code_url "[Thesis link]" https://raw.githubusercontent.com/wlcsm/Honours-Thesis/master/thesis.pdf
 .list Developed the nPoly open source Rust library for polynomials that implements several of the algorithms studied with a focus on performance.
 .code_url https://github.com/wlcsm/nPoly https://github.com/wlcsm/nPoly
 .
@@ -150,17 +154,24 @@ Associate Professor of Mathematics at North Carolina State University
 \fBRole:\fR Honours Supervisor
 \fBEmail:\fR mhelmer@ncsu.edu
 
+\fB\s(12Nikhil Chordia\fR
+\s(10
+Engineering Leader at CrowdStrike
+.sp 0.5
+\fBRole:\fR Manager while working at CrowdStrike
+\fBPhone:\fR +14246725533
+
 \fB\s(12Dr Hanna Kurniawati\fR
 \s(10
 Senior Lecturer of Computer Science at the Australian National University
 .sp 0.5
+\fBRole:\fR Course Convener when tutoring Algorithms course
 \fBEmail:\fR Hanna.Kurniawati@anu.edu.au
-\fBRole:\fR Course Convener when demonstrating for Algorithms course
-
-\fB\s(12Dr Pierre Portal\fR
-\s(10
-Associate Professor of Mathematics at the Australian National University
-.sp 0.5
-\fBEmail:\fR pierre.portal@anu.edu.au
-\fBRole:\fR Supervisor for Fourier Analysis research course
-.
+\#
+\#\fB\s(12Dr Pierre Portal\fR
+\#\s(10
+\#Associate Professor of Mathematics at the Australian National University
+\#.sp 0.5
+\#\fBEmail:\fR pierre.portal@anu.edu.au
+\#\fBRole:\fR Supervisor for Fourier Analysis research course
+\#.
