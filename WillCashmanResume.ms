@@ -1,6 +1,6 @@
 \# Will Resume 2023
 .
-.ds EMAIL wcashman1351@gmail.com
+.ds EMAIL william.cashman@maths.ox.ac.uk
 .ds PHONE +44 7818114085
 .ds GITHUB wlcsm
 .ds LINKEDIN cashman-will
