@@ -90,28 +90,33 @@ Oxford, UK
 \#.
 .item "The Australian National University" "Workshop Demonstrator, Canberra, AUS" "2019 - 2020"
 .list Lead tutor for undergraduate algorithms course (C++) and was workshop demonstrator for Concurrency systems (Ada) and Computer Architecture (ARM Assembly) courses.
-.list Ensured comprehensive learning experience by leading online forum discussions, and designing weekly student workshops as well as course assignments.
-.
-.
-.section CONFERENCES
-.
-.
-.item "Maple Conference" "Remote" "2020"
-.list Rust for developing fast parallelised Computer Algebra Systems
-.list Demonstrated the suitability of the Rust programming language for implementing complex Computer Algebra systems which prioritise speed without sacrificing extensibility and memory safety.
-.code_url "[Video recording]" https://www.youtube.com/watch?v=5ji7091sDi8&list=PLlcD7K2JXjTCSM5syc-A4qxd4_O4uV9D7&index=3
 .
 .
 .section EDUCATION
 .
 .
 .item "MSc in Mathematics and Foundations of Computer Science" "Oxford, UK" "2023 - Present"
-.list Specialising in Circuit optimisation for Fusion-Based Quantum Computing.
-.list Assisting the development of the ZXLive tool for interacting with ZX diagrams.
+.list Designing an modular optimising compiler for Fusion-Based Quantum Computing with linear emitters.
 .
 .item "Bachelor of Philosophy - Science" "The Australian National University,  Australia" "2017 - 2020"
 .list Graduated with First Class Honours, GPA 6.5/7, and received Chancellor's Letter of Commendation.
 .list Specialised in Algorithm design for Computational Algebraic Geometry and Machine learning.
+.
+.
+.section CONFERENCES
+.
+.
+.item "Maple Conference 2020" "Remote" "2020"
+.list Rust for developing fast parallelised Computer Algebra Systems
+.list Demonstrated the suitability of the Rust programming language for implementing complex Computer Algebra systems which prioritise speed without sacrificing extensibility and memory safety.
+.code_url "[Video recording]" https://www.youtube.com/watch?v=5ji7091sDi8&list=PLlcD7K2JXjTCSM5syc-A4qxd4_O4uV9D7&index=3
+.
+.
+.section ACCOLADES
+.
+.
+.item "1st place in UK NQCC Quantum Computing Hackathon" "" "2024"
+.list Used Quantinuum and IonQ technologies to strengthen risk aggregation evaluation for insurance losses in case of natural disaster for Mind Foundry and Aioi R&D labs.
 .
 .
 .bp
