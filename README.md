@@ -1,6 +1,6 @@
 # Will's Résumé
 
-My personal resume written in Groff. It is designed to be a simple template for building clean, professional resumes.
+My personal resume written in Groff. It is designed to be a simple template for building clean, professional resumes. It is based on the [FAANGPath resume](https://www.overleaf.com/latex/templates/faangpath-simple-template/npsfpdqnxmbc) with a few stylistic changes.
 
 # Customisation
 
